@@ -1,15 +1,19 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("railway.avif");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     height: 100vh;
 }
 
 .container {
-    background: white;
-    max-width: 80%;
-    margin: auto;
+    background: #d3b08d;
+    width: 62vh;
+    height: 50vh;
+    margin: 40px auto;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -20,31 +24,50 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
 button {
     border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #3C2412;
+    opacity: 1;
+    
 }
 
+#increment-btn :hover{
+    cursor: e-resize;
+} 
+
 #save-btn {
-    background: #1C7947;
+    background: #D2610A;
+    opacity: 1;
+
 }
 
 #save-el {
     font-weight: bold;
 }
 
+#reset-btn {
+    background: #766E67;
+    opacity: 1;
+}
