@@ -49,18 +49,14 @@ button:hover {
 
 #increment-btn {
     background: #3C2412;
-    opacity: 1;
-    
 }
 
-#increment-btn :hover{
+#increment-btn :hover {
     cursor: e-resize;
-} 
+}
 
 #save-btn {
     background: #D2610A;
-    opacity: 1;
-
 }
 
 #save-el {
@@ -69,5 +65,4 @@ button:hover {
 
 #reset-btn {
     background: #766E67;
-    opacity: 1;
 }
